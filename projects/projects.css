@@ -1,0 +1,154 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: #0E0E22;
+}
+
+header{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	margin: 10px 0;
+	background: #A91123;
+}
+
+h1{
+	font-size: 80px;
+	color: black;
+	font-weight: bold;
+}
+
+hr{
+	height: 2px;
+	background: white;
+}
+
+#toppage{
+	float: left;
+	font-size: 30px;
+	color: Black;
+	background: #3CB371;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	margin: 5px 0 0 5px;
+}
+#toppage:hover{
+	cursor: pointer;
+	background: #145A32;
+}
+
+#contact{
+	text-decoration: none;
+	font-size: 20px;
+	color: #41a5ee;
+	float: right;
+	margin: 5px 5px 0 0;
+}
+#contact:hover{
+	color: #2264b2;
+	cursor: pointer;
+}
+
+h1{
+	text-align: center;
+}
+
+main{
+	width: 100%;
+	position: relative;
+	font-size: 20px;
+	padding: 0 10px 0 10px;
+}
+
+.content{
+	position: relative;
+}
+
+.content:hover .box{
+	visibility: visible;
+	transform: rotate(360deg);
+}
+
+.midashi{
+	font-size: 25px;
+	color: brown;
+}
+
+.explanation{
+	color: lightblue;
+}
+
+.box{
+	border: 1px white solid;
+	border-radius: 20px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	visibility: hidden;
+	padding: 5px;
+	bottom: 0;
+	right: 35%;
+	transition: all 0.3s ease;
+	transfrom: 1s;
+}
+.box:hover{
+	color: black;
+	background: white;
+	border: 1px black solid;
+}
+
+#cs2302{
+	border: 1px pink solid;
+	border-radius: 20px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+#cs2401{
+	border: 1px green solid;
+	border-radius: 20px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+#personal{
+	border: 1px blue solid;
+	border-radius: 20px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+#cs1301{
+	border: 1px purple solid;
+	border-radius: 20px;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+#cs1320{
+	border-radius: 20px;
+	border: 1px #893101 solid;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+footer{
+	margin-top: 5px;
+	bottom: 2px;
+	position: static;
+	color: black;
+	background: rgb(0, 130, 207);
+	font-weight: 600;
+}
+footer>p{
+	margin: 0px;
+	padding: 0px;
+}
+#email{
+	color: blue;
+}

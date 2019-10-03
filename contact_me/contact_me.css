@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Asap|Hammersmith+One|Teko&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(0, 0, 51);
+  color: white;
+}
+
+header{
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	margin: 10px 0;
+}
+
+hr{
+  background-color: white;
+}
+
+main{
+  width: 100%;
+  box-align: left;
+}
+
+.name{
+  padding: 0px;
+}
+
+.inputing{
+	text-align: center;
+}
+
+input, textarea{
+	border-radius: 20px;
+}
+
+#comment{
+  text-align: center;
+  box-align: center;
+}
+
+li{
+	list-style-type: none;
+	padding: 0 15px;
+	margin-top: 5px;
+}
+
+.atag{
+  text-decoration: none;
+	border: 1px solid blue;
+	border-radius: 4px;
+	transition: 0.3s;
+	color: white;
+}
+
+footer{
+	background: rgb( 0, 130, 207);
+  bottom: 2px;
+  position: static;
+  color: black;
+}
+footer>p{
+  margin: 0px;
+  padding: 0px;
+}
+
+#email{
+  color: blue;
+}
