@@ -1,74 +1,75 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Asap|Hammersmith+One|Teko&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Anton|Asap|Hammersmith+One|Teko&display=swap");
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: rgb(0, 0, 51);
   color: white;
 }
 
-header{
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	font-size: 40px;
-	margin: 10px 0;
+header {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 40px;
+  margin: 10px 0;
 }
 
-hr{
+hr {
   background-color: white;
 }
 
-main{
+main {
   width: 100%;
   box-align: left;
 }
 
-.name{
+.name {
   padding: 0px;
 }
 
-.inputing{
-	text-align: center;
+.inputing {
+  text-align: center;
 }
 
-input, textarea{
-	border-radius: 20px;
+input,
+textarea {
+  border-radius: 20px;
 }
 
-#comment{
+#comment {
   text-align: center;
   box-align: center;
 }
 
-li{
-	list-style-type: none;
-	padding: 0 15px;
-	margin-top: 5px;
+li {
+  list-style-type: none;
+  padding: 0 15px;
+  margin-top: 5px;
 }
 
-.atag{
+.atag {
   text-decoration: none;
-	border: 1px solid blue;
-	border-radius: 4px;
-	transition: 0.3s;
-	color: white;
+  border: 1px solid blue;
+  border-radius: 4px;
+  transition: 0.3s;
+  color: white;
 }
 
-footer{
-	background: rgb( 0, 130, 207);
+footer {
+  background: rgb(0, 130, 207);
   bottom: 2px;
   position: static;
   color: black;
 }
-footer>p{
+footer > p {
   margin: 0px;
   padding: 0px;
 }
 
-#email{
+#email {
   color: blue;
 }

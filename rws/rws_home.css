@@ -1,148 +1,147 @@
-@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url("https://fonts.googleapis.com/css?family=Asap");
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body{
-	background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60");
-	background-repeat: repeat-y;
-	background-size: 100%;
-	width: 100%;
-	/* position: relative; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-	background: #151515;
-	font-size: 50px;
-}
-header>p{
-	color: white;
-	text-align: center;
-}
-
-#toppage{
-	float: left;
-	font-size: 30px;
-	color: Black;
-	background: #3CB371;
-	border: 1px solid black;
-	border-radius: 10px;
-	text-decoration: none;
-	margin: 5px 0 0 5px;
-}
-#toppage:hover{
-	cursor: pointer;
-	background: #145A32;
+body {
+  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  width: 100%;
+  /* position: relative; */
 }
 
-#contact{
-	text-decoration: none;
-	font-size: 20px;
-	color: #41a5ee;
-	float: right;
-	margin: 5px 5px 0 0;
+header {
+  background: #151515;
+  font-size: 50px;
 }
-#contact:hover{
-	color: #2264b2;
-	cursor: pointer;
+header > p {
+  color: white;
+  text-align: center;
 }
 
-main{
-	width: 100%;
-	margin-top: 10px;
-	margin-bottom: 6px;
-	position: relative;
+#toppage {
+  float: left;
+  font-size: 30px;
+  color: Black;
+  background: #3cb371;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 5px 0 0 5px;
 }
-main>nav>ul{
-	list-style-type: none;
-}
-main>nav>ul:hover>li{
-	filter: blur(1px);
-}
-
-main>nav>ul>li{
-	color: white;
-	border: 1px solid black;
-	border-radius: 5px;
-	text-align: center;
-	margin-bottom: 2px;
-	transition: 0.3s;
-	font-family: 'Asap', sans-serif;
-}
-main>nav>ul>li:hover{
-	cursor: pointer;
-	font-size: 30;
-	transform: scale(1.3);
-	border: none;
-	filter: none;
-	background: rgba(221, 160, 221, 0.3);
-	border-radius: 10px;
+#toppage:hover {
+  cursor: pointer;
+  background: #145a32;
 }
 
-nav{
-	float: left;
-	width: 17%;
-	margin-left: 3%;
+#contact {
+  text-decoration: none;
+  font-size: 20px;
+  color: #41a5ee;
+  float: right;
+  margin: 5px 5px 0 0;
+}
+#contact:hover {
+  color: #2264b2;
+  cursor: pointer;
 }
 
-#top_rws{
-	font-size: 20px;
-	font-weight: bold;
-	border: 1.5px double pink;
-	border-radius: 5px;
+main {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  position: relative;
+}
+main > nav > ul {
+  list-style-type: none;
+}
+main > nav > ul:hover > li {
+  filter: blur(1px);
 }
 
-article{
-	float: right;
-	background: rgba(0, 255, 255, 0.3);
-	width: 73%;
-	margin-right: 2%;
+main > nav > ul > li {
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  font-family: "Asap", sans-serif;
+}
+main > nav > ul > li:hover {
+  cursor: pointer;
+  font-size: 30;
+  transform: scale(1.3);
+  border: none;
+  filter: none;
+  background: rgba(221, 160, 221, 0.3);
+  border-radius: 10px;
 }
 
-#dc_sen{
-	display: none;
+nav {
+  float: left;
+  width: 17%;
+  margin-left: 3%;
 }
 
-#ra_sen{
-	display: none;
+#top_rws {
+  font-size: 20px;
+  font-weight: bold;
+  border: 1.5px double pink;
+  border-radius: 5px;
 }
 
-#ab_sen{
-	display: none;
+article {
+  float: right;
+  background: rgba(0, 255, 255, 0.3);
+  width: 73%;
+  margin-right: 2%;
 }
 
-#tp_sen{
-	display: none;
+#dc_sen {
+  display: none;
 }
 
-#gi_sen{
-	display: none;
+#ra_sen {
+  display: none;
 }
 
-
-.caption{
-	font-size: 50px;
-	font-weight: bold;
-	font-style:oblique;
-	color: maroon;
+#ab_sen {
+  display: none;
 }
 
-.detail>p{
-	font-family: "Times New Roman";
-	text-indent: 40px;
-	line-height: 2;
+#tp_sen {
+  display: none;
 }
 
-footer{
-	background: rgba(128, 128, 128, 0.3);
-	position: fixed;
-	bottom: 5px;
+#gi_sen {
+  display: none;
 }
 
-.indentation{
-	padding-left: 60px;
-	line-height: 2;
+.caption {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  color: maroon;
+}
+
+.detail > p {
+  font-family: "Times New Roman";
+  text-indent: 40px;
+  line-height: 2;
+}
+
+footer {
+  background: rgba(128, 128, 128, 0.3);
+  position: fixed;
+  bottom: 5px;
+}
+
+.indentation {
+  padding-left: 60px;
+  line-height: 2;
 }

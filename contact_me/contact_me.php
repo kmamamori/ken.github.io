@@ -19,7 +19,7 @@
 
 	//mail("kmamamori@miners.utep.edu, ken.amamori@gmail.com", "x10: contact", $message) && mail(".$_POST['email'].","Keep up email", "Testing if this happens." );
 
-	($to, $subject, $message)
+	//($to, $subject, $message)
 	if(mail("kmamamori@miners.utep.edu, ken.amamori@gmail.com", "x10: contact", $message) && mail(".$_POST['email'].","Keep up email", "Testing if this happens." )){ 
 		echo "sent email";
 	}else{
